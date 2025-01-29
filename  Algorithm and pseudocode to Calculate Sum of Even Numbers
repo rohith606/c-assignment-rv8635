@@ -1,0 +1,20 @@
+Algorithm:
+Start
+Input: Read the integer value of n (upper limit).
+Initialize: Set sum = 0.
+Loop: Iterate from i = 1 to n:
+If i is an even number (i.e., i % 2 == 0), add i to sum.
+Output: Display the value of sum.
+End
+
+Pseudocode:
+Start
+    Input n
+    Set sum = 0
+    For i from 1 to n do
+        If i % 2 == 0 then
+            sum = sum + i
+        End If
+    End For
+    Output sum
+End

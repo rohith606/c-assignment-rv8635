@@ -1,0 +1,19 @@
+Algorithm:
+•  Start
+•  Input: Read the values of P (Principal), R (Rate of interest), and T (Time in years).
+•  Calculate: Use the formula SI = (P × R × T) / 100 to compute the simple interest.
+•  Output: Display the calculated simple interest (SI).
+•  End
+
+Pseudocode:
+BEGIN
+   Declare variables P, R, T, SI
+   Print "Enter Principal Amount (P):"
+   Input P
+   Print "Enter Rate of Interest (R):"
+   Input R
+   Print "Enter Time in Years (T):"
+   Input T
+   SI ← (P * R * T) / 100
+   Print "The Simple Interest is: ", SI
+END

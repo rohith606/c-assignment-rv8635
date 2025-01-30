@@ -1,0 +1,16 @@
+Algorithm:
+•  Start
+•  Declare variables: C (Celsius temperature) and F (Fahrenheit temperature).
+•  Input the value of C.
+•  Convert the Celsius temperature to Fahrenheit using the formula: F=(C×95)+32F = (C \times \frac{9}{5}) + 32F=(C×59)+32
+•  Display the Fahrenheit temperature F.
+•  Stop
+
+Pseudocode:
+BEGIN
+   Declare variables C, F
+   Print "Enter temperature in Celsius:"
+   Input C
+   F ← (C × 9/5) + 32
+   Print "Temperature in Fahrenheit is: ", F
+END

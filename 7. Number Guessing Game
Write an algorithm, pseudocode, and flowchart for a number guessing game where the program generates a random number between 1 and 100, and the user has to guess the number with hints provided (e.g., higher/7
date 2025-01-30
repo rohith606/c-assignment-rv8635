@@ -1,0 +1,37 @@
+Algorithm
+•  Start
+•  Generate a random number between 1 and 100 and store it in randomNumber.
+•  Declare a variable guess to store the user's input and attempts to count the number of guesses.
+•  Initialize attempts to 0.
+•  Repeat the following steps until the user guesses the number:
+•	Increment attempts by 1.
+•	Ask the user to input a guess and store it in guess.
+•	If guess is equal to randomNumber, display "Congratulations!" and stop.
+•	If guess is less than randomNumber, display "Higher!".
+•	If guess is greater than randomNumber, display "Lower!".
+•  Display the total number of attempts.
+•  Stop
+Pseudocode:
+BEGIN
+   Import random library
+   Generate randomNumber between 1 and 100
+   Declare guess, attempts
+   attempts ← 0
+
+   REPEAT
+      Increment attempts by 1
+      Print "Enter your guess:"
+      Input guess
+
+      IF guess = randomNumber THEN
+         Print "Congratulations! You've guessed the correct number."
+         Print "Total attempts: ", attempts
+         EXIT
+      ELSE IF guess < randomNumber THEN
+         Print "Higher!"
+      ELSE
+         Print "Lower!"
+      ENDIF
+   UNTIL guess = randomNumber
+
+END

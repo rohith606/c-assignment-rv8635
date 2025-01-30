@@ -1,0 +1,25 @@
+Algorithm:
+•  Start
+•  Input two integers a and b.
+•  While b is not equal to 0:
+•	Compute the remainder of a divided by b (remainder = a % b).
+•	Assign the value of b to a.
+•	Assign the value of remainder to b.
+•  When b becomes 0, the value of a is the GCD.
+•  Output the GCD.
+•  Stop
+
+Pseudocode:
+BEGIN
+   Declare a, b, remainder
+   Print "Enter two numbers:"
+   Input a, b
+
+   WHILE b ≠ 0 DO
+      remainder ← a % b
+      a ← b
+      b ← remainder
+   END WHILE
+
+   Print "GCD is:", a
+END

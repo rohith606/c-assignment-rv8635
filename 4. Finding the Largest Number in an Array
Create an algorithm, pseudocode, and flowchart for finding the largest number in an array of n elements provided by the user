@@ -1,0 +1,27 @@
+Algorithm:
+•  Start
+•  Input: Read the integer value n (size of the array).
+•  Input: Read the n elements into an array.
+•  Initialize: Set the first element of the array as the initial largest number (i.e., largest = arr[0]).
+•  Loop: Iterate through the array from index 1 to n-1:
+•	If arr[i] > largest, then set largest = arr[i].
+•  Output: Print the largest number.
+•  End
+Pseudocode:
+Start
+    Input n
+    Declare array arr[n]
+    For i = 0 to n-1 do
+        Input arr[i]
+    End For
+    
+    largest = arr[0]
+    
+    For i = 1 to n-1 do
+        If arr[i] > largest then
+            largest = arr[i]
+        End If
+    End For
+    
+    Output largest
+End

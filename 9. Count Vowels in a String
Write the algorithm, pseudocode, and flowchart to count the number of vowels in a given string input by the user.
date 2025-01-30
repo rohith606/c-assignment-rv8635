@@ -1,0 +1,25 @@
+Algorithm:
+•  Start
+•  Declare a string variable str and an integer variable vowelCount initialized to 0.
+•  Input the string str from the user.
+•  Loop through each character of the string:
+•	Check if the character is a vowel (a, e, i, o, u or A, E, I, O, U).
+•	If it is a vowel, increment vowelCount by 1.
+•  After the loop ends, display the value of vowelCount.
+•  Stop
+
+Pseudocode:
+BEGIN
+   Declare string str
+   Declare integer vowelCount ← 0
+   Print "Enter a string:"
+   Input str
+
+   FOR each character in str DO
+      IF character is 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' THEN
+         Increment vowelCount by 1
+      ENDIF
+   END FOR
+
+   Print "Number of vowels:", vowelCount
+END

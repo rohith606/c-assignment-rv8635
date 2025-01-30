@@ -1,0 +1,43 @@
+Algorithm:
+•  Start
+•  Declare variables: n (number of terms), a (first term), b (second term), next (next term in the sequence), and i (loop counter).
+•  Input the value of n.
+•  If n is less than or equal to 0, print an error message and stop.
+•  If n is 1, print a and stop.
+•  If n is 2, print a and b and stop.
+•  Print a and b.
+•  Use a loop to calculate the next terms in the Fibonacci sequence:
+•	next = a + b
+•	Print next
+•	Update a = b and b = next
+•  Repeat until all n terms are printed.
+•  Stop
+Pseudocode:
+BEGIN
+   Declare n, a, b, next, i
+   a ← 0
+   b ← 1
+
+   Print "Enter the number of terms (n):"
+   Input n
+
+   IF n <= 0 THEN
+      Print "Invalid input! Enter a positive number."
+      STOP
+   ENDIF
+
+   IF n == 1 THEN
+      Print a
+      STOP
+   ENDIF
+
+   Print a, b
+
+   FOR i FROM 3 TO n DO
+      next ← a + b
+      Print next
+      a ← b
+      b ← next
+   END FOR
+
+END

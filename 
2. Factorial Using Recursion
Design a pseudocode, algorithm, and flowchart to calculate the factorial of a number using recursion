@@ -1,0 +1,23 @@
+Algorithm:
+1.	Start
+2.	Input: Read the integer value n (number for which factorial is to be calculated).
+3.	Define the recursive function factorial(n):
+o	If n == 0 or n == 1, return 1 (Base case).
+o	Else, return n * factorial(n-1) (Recursive case).
+4.	Call the recursive function to calculate factorial(n).
+5.	Output: Display the result of factorial(n).
+6.	End
+Pseudocode:
+
+Start
+    Input n
+    Function factorial(n):
+        If n == 0 or n == 1 then
+            Return 1
+        Else
+            Return n * factorial(n - 1)
+    End Function
+    
+    result = factorial(n)
+    Output result
+End
